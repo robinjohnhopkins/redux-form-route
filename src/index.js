@@ -5,7 +5,7 @@ import App from './App';
 import Users from './users'
 import Contact from './contact'
 import Notfound from './notfound'
-import {Route, Link, BrowserRouter as Router, Switch} from 'react-router-dom'
+import {Route, Link, BrowserRouter as Router, Switch, NavLink} from 'react-router-dom'
 
 import * as serviceWorker from './serviceWorker';
 
@@ -14,13 +14,19 @@ const routing = (
         <div>
             <ul>
                 <li>
-                    <Link to="/">Home</Link>
+                    <NavLink exact activeClassName="active" to="/">
+                        Home
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to="/users">Users</Link>
+                    <NavLink activeClassName="active" to="/users">
+                        Users
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to="/contact">Contact</Link>
+                    <NavLink activeClassName="active" to="/contact">
+                        Contact
+                    </NavLink>
                 </li>
             </ul>
             <Switch>
