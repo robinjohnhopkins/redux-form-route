@@ -15,6 +15,10 @@ After adding router,
 Now if you enter manually `localhost:3000/users` you will see 'Home' from App followed by 'Users'
 from Users component rendered.
 
+'''
+<Route exact path="/" component={App} />
+'''
+This makes the App not show when route is Users.
 
 
 ## Available Scripts
