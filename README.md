@@ -1,5 +1,22 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## create project
+
+```
+nvm use v8.11.1
+npx create-react-app redux-form-route .
+npm install react-router-dom
+```
+
+https://codeburst.io/getting-started-with-react-router-5c978f70df91
+
+After adding router, 
+
+Now if you enter manually `localhost:3000/users` you will see 'Home' from App followed by 'Users'
+from Users component rendered.
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
