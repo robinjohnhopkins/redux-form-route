@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## TLDR;)
+Play around with react routing and redux forms. 
+Proof of concept only. Very rough!
+Each stage is checked in on a different branch!
+
 ## create project
 
 ```
@@ -7,6 +12,8 @@ nvm use v8.11.1
 npx create-react-app redux-form-route .
 npm install react-router-dom
 ```
+
+This tutorial gives routing
 
 https://codeburst.io/getting-started-with-react-router-5c978f70df91
 
@@ -22,6 +29,14 @@ This makes the App not show when route is Users.
 
 ## Ctl Cmd B - to beautify react using rc-beautify
 
+
+## Add redux forms to basic routing example
+
+```
+npm install --save redux react-redux redux-form
+
+yarn  add   redux react-redux redux-form
+```
 
 ## Available Scripts
 
